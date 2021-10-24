@@ -19,7 +19,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	
 	@Value("${oauth.client.name}")
 	private String clientName;
-	
+
 	@Value("${oauth.client.secret}")
 	private String clientSecret;
 	
